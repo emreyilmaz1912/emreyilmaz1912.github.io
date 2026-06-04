@@ -3,13 +3,13 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Ucurtma Legal Pages</title>
+  <title>Ucurtma Apps & Games</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Legal, privacy, terms, support and advertising transparency pages for Ucurtma apps and games.">
+  <meta name="description" content="Official developer website for Ucurtma apps and games.">
 
   <style>
     :root {
-      --bg-1: #06020f;
+      --bg-1: #05020d;
       --bg-2: #120827;
       --bg-3: #211044;
       --card: rgba(255, 255, 255, 0.08);
@@ -27,10 +27,6 @@
 
     * {
       box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
     }
 
     body {
@@ -84,14 +80,14 @@
       align-items: center;
       gap: 12px;
       color: var(--text);
-      font-weight: 800;
+      font-weight: 900;
       letter-spacing: 0.2px;
     }
 
     .brand-mark {
-      width: 42px;
-      height: 42px;
-      border-radius: 14px;
+      width: 44px;
+      height: 44px;
+      border-radius: 15px;
       background:
         radial-gradient(circle at 35% 25%, #fff4b8, transparent 25%),
         linear-gradient(135deg, var(--gold), var(--pink));
@@ -124,7 +120,7 @@
 
     .hero {
       display: grid;
-      grid-template-columns: 1.15fr 0.85fr;
+      grid-template-columns: 1.2fr 0.8fr;
       gap: 26px;
       align-items: stretch;
       margin-bottom: 26px;
@@ -146,17 +142,17 @@
       position: relative;
       overflow: hidden;
       border-radius: 30px;
-      padding: 38px;
-      min-height: 310px;
+      padding: 40px;
+      min-height: 330px;
     }
 
     .hero-card::after {
       content: "";
       position: absolute;
-      width: 280px;
-      height: 280px;
+      width: 300px;
+      height: 300px;
       right: -90px;
-      bottom: -100px;
+      bottom: -110px;
       border-radius: 50%;
       background: radial-gradient(circle, rgba(255,204,77,.24), transparent 65%);
     }
@@ -171,14 +167,14 @@
       color: var(--gold);
       background: rgba(255, 204, 77, 0.08);
       font-size: 13px;
-      font-weight: 800;
+      font-weight: 900;
       letter-spacing: 0.35px;
       text-transform: uppercase;
     }
 
     h1 {
       margin: 20px 0 14px;
-      font-size: clamp(40px, 7vw, 76px);
+      font-size: clamp(42px, 7vw, 78px);
       line-height: 0.92;
       letter-spacing: -2.6px;
     }
@@ -191,7 +187,7 @@
     }
 
     .hero p {
-      max-width: 620px;
+      max-width: 640px;
       margin: 0;
       color: var(--muted);
       font-size: 18px;
@@ -203,12 +199,12 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      min-height: 310px;
+      min-height: 330px;
     }
 
     .status-title {
       color: var(--soft);
-      font-weight: 800;
+      font-weight: 900;
       text-transform: uppercase;
       letter-spacing: 0.35px;
       font-size: 13px;
@@ -291,10 +287,12 @@
     }
 
     .app-head {
+      position: relative;
       display: flex;
       align-items: center;
       gap: 14px;
       margin-bottom: 14px;
+      z-index: 1;
     }
 
     .app-icon {
@@ -326,11 +324,15 @@
     }
 
     .app-card p {
+      position: relative;
+      z-index: 1;
       margin: 0 0 20px;
       color: var(--muted);
     }
 
     .links {
+      position: relative;
+      z-index: 1;
       display: grid;
       gap: 10px;
     }
@@ -404,7 +406,7 @@
       border: 1px solid rgba(255,255,255,0.16);
       background: rgba(255,255,255,0.07);
       color: var(--text);
-      font-weight: 800;
+      font-weight: 900;
       transition: 0.2s ease;
     }
 
@@ -423,7 +425,7 @@
 
     .footer a {
       color: var(--gold);
-      font-weight: 800;
+      font-weight: 900;
     }
 
     @media (max-width: 820px) {
@@ -492,7 +494,8 @@
       </a>
 
   <nav class="top-links" aria-label="Quick links">
-    <a href="#apps">Apps</a>
+    <a href="#apps">Apps & Games</a>
+    <a href="./ucurtma-legal-pages/">Legal Pages</a>
     <a href="./app-ads.txt">app-ads.txt</a>
     <a href="mailto:medyaucurtma@gmail.com">Contact</a>
   </nav>
@@ -500,38 +503,38 @@
 
 <section class="hero">
   <article class="hero-card">
-    <span class="eyebrow">Legal · Privacy · Support</span>
+    <span class="eyebrow">Official Developer Website</span>
     <h1>
       Ucurtma<br>
-      <span class="gradient-text">Legal Pages</span>
+      <span class="gradient-text">Apps & Games</span>
     </h1>
     <p>
-      Official privacy policies, terms of use, support pages and advertising transparency information
-      for Ucurtma apps and games.
+      Official developer website for Ucurtma mobile apps and games. Find product links,
+      legal pages, support information and advertising transparency details.
     </p>
   </article>
 
   <aside class="status-card">
     <div>
-      <div class="status-title">Release-ready links</div>
+      <div class="status-title">Store-ready resources</div>
       <ul class="status-list">
-        <li><span class="dot"></span>Privacy Policy pages</li>
-        <li><span class="dot"></span>Terms of Use pages</li>
+        <li><span class="dot"></span>Developer website</li>
+        <li><span class="dot"></span>Privacy and terms pages</li>
         <li><span class="dot"></span>Support pages</li>
         <li><span class="dot"></span>app-ads.txt transparency</li>
       </ul>
     </div>
 
-    <a class="pill-link" href="./app-ads.txt">
-      View app-ads.txt →
+    <a class="pill-link" href="./ucurtma-legal-pages/">
+      Open Legal Pages →
     </a>
   </aside>
 </section>
 
 <section id="apps">
   <div class="section-title">
-    <h2>Apps & Games</h2>
-    <span>Select a product to view its legal pages.</span>
+    <h2>Products</h2>
+    <span>Apps and games published by Ucurtma.</span>
   </div>
 
   <div class="apps">
@@ -545,18 +548,18 @@
       </div>
 
       <p>
-        Legal and support pages for Grix Says Nope.
+        A fast, chaotic mobile game where Grix keeps changing the rules.
       </p>
 
       <div class="links">
         <a class="link-row" href="./ucurtma-legal-pages/grix-says-nope/privacy-policy.html">
           <strong>Privacy Policy</strong>
-          <span>Data, ads and analytics details <b class="arrow">→</b></span>
+          <span>Data, ads and analytics <b class="arrow">→</b></span>
         </a>
 
         <a class="link-row" href="./ucurtma-legal-pages/grix-says-nope/terms.html">
           <strong>Terms of Use</strong>
-          <span>Game usage terms <b class="arrow">→</b></span>
+          <span>Usage terms <b class="arrow">→</b></span>
         </a>
 
         <a class="link-row" href="./ucurtma-legal-pages/grix-says-nope/support.html">
@@ -576,21 +579,21 @@
       </div>
 
       <p>
-        Legal and support pages for LingoBlocks.
+        Legal and support resources for LingoBlocks.
       </p>
 
       <div class="links">
-        <a class="link-row" href="./lingoblocks/privacy-policy.html">
+        <a class="link-row" href="./ucurtma-legal-pages/lingoblocks/privacy-policy.html">
           <strong>Privacy Policy</strong>
           <span>Data and privacy details <b class="arrow">→</b></span>
         </a>
 
-        <a class="link-row" href="./lingoblocks/terms-of-use.html">
+        <a class="link-row" href="./ucurtma-legal-pages/lingoblocks/terms-of-use.html">
           <strong>Terms of Use</strong>
           <span>Usage terms <b class="arrow">→</b></span>
         </a>
 
-        <a class="link-row" href="./lingoblocks/support.html">
+        <a class="link-row" href="./ucurtma-legal-pages/lingoblocks/support.html">
           <strong>Support</strong>
           <span>Help and contact <b class="arrow">→</b></span>
         </a>
@@ -603,7 +606,7 @@
   <article class="ads-card">
     <h2>Advertising Transparency</h2>
     <p>
-      Ucurtma publishes an app-ads.txt file to authorize advertising sellers for supported apps and games.
+      Ucurtma publishes app-ads.txt to authorize advertising sellers for supported apps and games.
     </p>
     <a class="pill-link" href="./app-ads.txt">
       Open app-ads.txt →
